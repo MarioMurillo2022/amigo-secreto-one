@@ -6,7 +6,7 @@ let amigos = [];
 
 function agregarAmigo() {
     // Obtenemos el valor del input y con .trim() eliminamos los espacios en blanco de ambos extremos
-    let inputNombreAmigo = document.getElementById('amigos' + 'primos').value.trim();
+    let inputNombreAmigo = document.getElementById('amigo').value.trim();
 
     // Validamos que no esté vacío el input antes de agregar el nombre al array de amigos[]
     if (inputNombreAmigo != '') {
